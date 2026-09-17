@@ -65,7 +65,7 @@ jobs:
 
   min_version:
     name: Minimum supported rust version
-    runs-on: ubuntu-22.04
+    runs-on: mandrel
     needs: crate_metadata
     steps:
     - name: Checkout source code
